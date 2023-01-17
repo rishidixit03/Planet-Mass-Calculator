@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(images/galaxy.gif);
+}
+.hero{
+ display:flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-top: 0.5rem;
+}
+.form{
+    margin-top: 3rem;
+}
+.input{
+    padding: 0.5em 1em;
+}
+.drop-down{
+    padding: 0.5em 1em;
+}
+.btn{
+    padding: 0.5em 1em;
+    background-color:#ced4da ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #adb5bd;
+}
+.planet-info{
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+    background-color:#adb5bd6b ;
+    padding: 1rem 2rem;
+}
+.planet-image-container{
+    height: 40%;
+    width: 40%;
+}
+.planet-image{
+    height: 100%;
+    width: 100%;
+}
+.planet-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #868e9683;
+    padding: 0 1rem;
+}
